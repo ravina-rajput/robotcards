@@ -1,7 +1,13 @@
 body {
   background: #cc2b5e;
   background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);
-  background: linear-gradient(to right, #753a88, #cc2b5e);
+  background: linear-gradient(
+    to right,
+    yellow,
+    #009966 20%,
+    #009966 80%,
+    purple
+  );
   padding: 0;
   margin: 0;
   font-family: sans-serif;
