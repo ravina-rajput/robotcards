@@ -1,13 +1,18 @@
 body {
-  background: #cc2b5e;
-  background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);
+  background: #3a1c71; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #ffaf7b,
+    #d76d77,
+    #3a1c71
+  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    yellow,
-    #009966 20%,
-    #009966 80%,
-    purple
-  );
+    to left,
+    #ffaf7b,
+    #d76d77,
+    #3a1c71
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   padding: 0;
   margin: 0;
   font-family: 'Lobster', cursive;
